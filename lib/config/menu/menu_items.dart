@@ -23,6 +23,48 @@ const appMenuItems = <MenuItem>[
     icon: Icons.home,
   ),
 
+  MenuItem(
+    title: 'Inicio',
+    subTitle: 'Página principal',
+    link: '/home_view',
+    icon: Icons.home,
+  ),
+
+  MenuItem(
+    title: 'Inicio',
+    subTitle: 'Página principal',
+    link: '/home_view',
+    icon: Icons.home,
+  ),
+
+  MenuItem(
+    title: 'Inicio',
+    subTitle: 'Página principal',
+    link: '/home_view',
+    icon: Icons.home,
+  ),
+
+  MenuItem(
+    title: 'Inicio',
+    subTitle: 'Página principal',
+    link: '/home_view',
+    icon: Icons.home,
+  ),
+
+  MenuItem(
+    title: 'Inicio',
+    subTitle: 'Página principal',
+    link: '/home_view',
+    icon: Icons.home,
+  ),
+
+  MenuItem(
+    title: 'Inicio',
+    subTitle: 'Página principal',
+    link: '/home_view',
+    icon: Icons.home,
+  ),
+
   
   
   
