@@ -124,7 +124,7 @@ class _RetosState extends State<DesafiosScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Desafíos Matemáticos'),
-        backgroundColor: const Color(0xFFC9D6EA),
+        backgroundColor: const Color.fromARGB(255, 124, 206, 244),
       ),
       body: Center(
         child: Column(
@@ -159,6 +159,15 @@ class _RetosState extends State<DesafiosScreen> {
                   children: opciones.sublist(0, 2).map((opcion) {
                     return ElevatedButton(
                       onPressed: () => _checkAnswer(opcion),
+                      style: ElevatedButton.styleFrom(
+                      fixedSize: Size(0.4 * MediaQuery.of(context).size.width, 50),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      backgroundColor: const Color.fromARGB(255, 162, 230, 241),
+                      padding: EdgeInsets.zero,
+                      // margin: EdgeInsets.only(top: 30, left: 10, right: 10),
+                    ),
                       child: Text(
                         opcion.toString(),
                         style: const TextStyle(fontSize: 18),
@@ -177,11 +186,21 @@ class _RetosState extends State<DesafiosScreen> {
                   children: opciones.sublist(2, 4).map((opcion) {
                     return ElevatedButton(
                       onPressed: () => _checkAnswer(opcion),
-                      child: Text(
-                        opcion.toString(),
-                        style: const TextStyle(fontSize: 18),
+                      style: ElevatedButton.styleFrom(
+                      fixedSize: Size(0.4 * MediaQuery.of(context).size.width, 50),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                    );
+                      backgroundColor: const Color.fromARGB(255, 162, 230, 241),
+                      padding: EdgeInsets.zero,
+                      // margin: EdgeInsets.only(top: 30, left: 10, right: 10),
+                    ),
+                    child: Text(
+                      opcion.toString(),
+                      style: const TextStyle(fontSize: 18),
+                    ),
+                  );
+
                   }).toList(),
                 ),
               ],

@@ -25,5 +25,10 @@ final appRouter = GoRouter(
       path: '/d',
       builder: (context, state) => const DesafiosScreen(),
     ),
+
+    GoRoute(
+      path: '/p',
+      builder: (context, state) => const Palabras(),
+    ),
   ],
 );

@@ -38,10 +38,10 @@ const appMenuItems = <MenuItem>[
   ),
 
   MenuItem(
-    title: 'Inicio',
+    title: 'Palabras',
     subTitle: 'Página principal',
-    link: '/home_view',
-    icon: Icons.home,
+    link: '/p',
+    icon: Icons.text_fields_rounded,
   ),
 
   MenuItem(

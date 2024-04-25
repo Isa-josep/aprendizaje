@@ -11,7 +11,7 @@ class Memorama extends StatelessWidget {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 41, 187, 255),
+        backgroundColor: const Color.fromARGB(255, 124, 206, 244),
       ),
       body: const Center(
         
@@ -54,7 +54,7 @@ class MemoramaScreenState extends State<MemoramaScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: const Color.fromARGB(255, 41, 187, 255),
+      color: const Color.fromARGB(255, 124, 206, 244),
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
