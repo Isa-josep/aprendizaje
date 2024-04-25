@@ -16,25 +16,25 @@ class MenuItem{
 
 const appMenuItems = <MenuItem>[
 
+  // MenuItem(
+  //   title: 'Inicio',
+  //   subTitle: 'Página principal',
+  //   link: '/home_view',
+  //   icon: Icons.home,
+  // ),
+
   MenuItem(
-    title: 'Inicio',
+    title: 'Memorama',
     subTitle: 'Página principal',
-    link: '/home_view',
-    icon: Icons.home,
+    link: '/m',
+    icon: Icons.memory_sharp,
   ),
 
   MenuItem(
-    title: 'Inicio',
+    title: 'Desafios Matematicos',
     subTitle: 'Página principal',
-    link: '/home_view',
-    icon: Icons.home,
-  ),
-
-  MenuItem(
-    title: 'Inicio',
-    subTitle: 'Página principal',
-    link: '/home_view',
-    icon: Icons.home,
+    link: '/d',
+    icon: Icons.calculate_rounded,
   ),
 
   MenuItem(
